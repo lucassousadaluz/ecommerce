@@ -1,0 +1,118 @@
+.logo {
+    text-align: center;
+    background-color: #f3bae3;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.nav-pills .nav-link {
+    color: black;
+
+}
+
+.nav-pills .dropdown-toggle:active,
+.nav-pills .dropdown-toggle:focus,
+.nav-pills .dropdown-toggle:hover {
+    background-color: #f3bae3; 
+}
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:focus,
+.nav-pills .nav-link:hover {
+    background-color: #f3bae3;
+}
+
+.corpo{
+    background-color: white;
+    height: 100%;
+    margin: 0px;
+
+}
+
+.carousel {
+    margin: auto;
+    width: 60%;
+    margin-top: 60px;
+
+}
+
+footer {
+    background-color: #f3bae3;
+    width: auto;
+    height: 50px;
+    bottom: 0;
+    padding: 30px;
+    text-align: center;
+    /* margin: auto; */
+    justify-content: center;
+    /* display: flex; */
+    align-items: center;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.product p {
+    color: #555;
+}
+.product button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product button:hover {
+    background-color: #f3bae3;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.item, .item2 {
+    height: 100px;
+    position: relative;
+    top: 200px;
+
+}
+
+.container2 {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+
+}
+
+
